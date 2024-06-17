@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <primary-color>strawberry</primary-color>
+        <header-logo>writerside.svg</header-logo>
+    </variables>
+
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="macOS" display-name="macOS"/>
+        <layout name="GNOME" display-name="Linux"/>
+    </shortcuts>
+
+    <footer>
+        <social type="blog" href="https://blog.jetbrains.com/writerside/">Blog</social>
+        <social type="bilibili" href="https://twitter.com/onwriterside">哔哩哔哩</social>
+
+        <copyright>cbq2024</copyright>
+    </footer>
+
+    <build-profile instance="s">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
