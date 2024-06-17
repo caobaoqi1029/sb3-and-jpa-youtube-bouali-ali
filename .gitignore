@@ -1,3 +1,5 @@
+*.zip
+
 ### FRONTEND ###
 node_modules
 dist
